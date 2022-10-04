@@ -1,9 +1,60 @@
 /* comentario de css */
 
-p{
-    color:deepskyblue;
+p {
+    color:aliceblue;
 }
 
-h1{
-    color: blueviolet;
+h1 {
+    color:rgba(255, 127, 80, 0.822);
+    text-align: center;
+}
+
+h2{
+    color:rgba(255, 127, 80, 0.822);
+    text-align: center;
+
+}
+
+body {
+    background-image: url(/asests/imagenes/background.jpg);
+}
+
+table {
+    background-color: azure;
+    width: 50%;
+    /*es el ancho de la tabla, puede ser valor absoluto(px) o relativo (%)*/
+    color: black;
+
+    /* bordes */
+    border: 5px solid rgba(0, 0, 0, 0.048);
+    border-collapse: collapse;
+
+}
+
+table th{
+    color: darkcyan;
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+    font-size: 1.0em; /* tamaño de fuente */
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+footer{
+    
+    text-align: center; 
+}
+
+main{
+    text-align:center ;
+    background-color: rgba(240, 248, 255, 0.473);
+     border: 5px solid black;
+    border-collapse: collapse;
+
+
 }
