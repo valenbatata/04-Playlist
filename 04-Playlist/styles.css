@@ -15,15 +15,16 @@ h2{
 
 }
 
-body {
+#index {
     background-image: url(/asests/imagenes/background.jpg);
+
 }
 
 table {
-    background-color: azure;
-    width: 50%;
+    background-color: rgba(240, 255, 255, 0.062);
+    width: 80%;
     /*es el ancho de la tabla, puede ser valor absoluto(px) o relativo (%)*/
-    color: black;
+    color: rgb(0, 0, 0);
 
     /* bordes */
     border: 5px solid rgba(0, 0, 0, 0.048);
@@ -32,29 +33,87 @@ table {
 }
 
 table th{
-    color: darkcyan;
-    border: 5px solid black;
+    color: rgba(24, 250, 250, 0.822);
+    border: 5px solid rgb(5, 5, 5);
     border-collapse: collapse;
     text-align: center;
 }
 
+/*letras de la tabla*/
 td{
+    color: aqua;
     font-size: 1.0em; /* tamaño de fuente */
-    border: 5px solid black;
+    border: 5px solid rgb(0, 0, 0);
     border-collapse: collapse;
     text-align: center;
 }
 
+/*parte final de la pag*/
 footer{
     
     text-align: center; 
 }
 
+/*tabla en general*/
 main{
     text-align:center ;
-    background-color: rgba(240, 248, 255, 0.473);
-     border: 5px solid black;
+    background-color: rgba(240, 248, 255, 0.103);
+     border: 5px solid rgb(0, 0, 0);
     border-collapse: collapse;
+}
 
 
+/*centración de la tabla*/
+#index main{
+    display: flex;
+    justify-content:center;
+    
+}
+
+/*tamaño de letra en la tabla*/
+.background{
+    font-size: 2em;
+}
+
+/*fondos de las canciones*/
+
+#confi{
+    background-image: url(/asests/imagenes/justin.jpeg);
+}
+
+
+#lost{
+    background-image: url(/asests/imagenes/the-weekend.jpeg);
+}
+
+#moscow{
+    background-image: url(/asests/imagenes/benito2.jpeg);
+}
+
+#benito1{
+    background-image: url(/asests/imagenes/benito.jpeg);
+}
+
+#weeknd{
+    background-image: url(/asests/imagenes/weeknd2.jpeg);
+}
+
+#chase{
+    background-image: url(/asests/imagenes/Chase.jpeg)
+}
+
+#paulito{
+    background-image: url(/asests/imagenes/paulito.jpeg);
+}
+
+#chase2{
+    background-image: url(/asests/imagenes/chase2.jpeg);
+}
+
+#billie{
+    background-image: url(/asests/imagenes/Billie\ .jpeg);
+}
+
+#chris{
+    background-image: url(/asests/imagenes/chris.jpeg);
 }
